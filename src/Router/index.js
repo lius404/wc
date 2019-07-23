@@ -17,7 +17,7 @@ const router = <HashRouter>
             <Route path='/collect' component={Collect} exact/>
             <Route path='/nine' component={Nine} exact/>
             <Route path='/detail/:id' component={Detail} exact/>
-            <Route phth='/sort' component={Sort} exact/>
+            <Route path='/sort' component={Sort} exact/>
             <Route path='/login' component={Login} exact/>
             <Route path='/register' component={Register} exact/>
             <Redirect from='/' to='/home' />
