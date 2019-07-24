@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Swiper from 'swiper/dist/js/swiper.js'
 import 'swiper/dist/css/swiper.min.css'
 import css from './index.module.scss'
+import {withRouter} from "react-router"
 class Wheel extends Component {
     render() {
         return (
@@ -11,18 +12,21 @@ class Wheel extends Component {
 
                         {
                             this.props.info ? this.props.info.map(item =>
-                                <div className="swiper-slide" key={item.id}>
+                                <div className="swiper-slide" key={item.id} onClick={()=>{this.changePage(item.id)}} >
                                     <img src={item.pic} className={css.theImg} />
                                     <p className={css.theP}> {item.dtitle} </p>
-                                    <p className={css.theP}> ￥{item.yuanjia} </p>
+                                    <p className={css.quanJine}>  <span>{ item.quanJine }元卷</span> </p>
+                                    <p className={css.yuanjia}> 卷后价￥{Math.floor((item.yuanjia-item.quanJine)*100/100)} </p>
                                 </div>
-
                             ) : ""
                         }
                     </div>
                 </div>
             </div>
         )
+    }
+    changePage(id){
+        this.props.history.push(`/detail/${id}`)
     }
 
     componentDidUpdate() {
@@ -33,4 +37,4 @@ class Wheel extends Component {
     }
 }
 
-export default Wheel
+export default withRouter(Wheel)

@@ -10,7 +10,7 @@ class Detail extends Component {
         recommend: []
     }
     render() {
-        return <div class={css.box} >
+        return <div className={css.box} >
             <h3> 相关推荐 </h3>
             {
                 this.state.datalist ? <Wheel info={this.state.datalist}></Wheel> : ""

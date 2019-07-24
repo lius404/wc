@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import {withRouter} from 'react-router'
 import css from "./index.module.scss" 
 class DetailItem extends Component {
     render() {
@@ -6,7 +7,7 @@ class DetailItem extends Component {
             <div>
                 {console.log(this.props.info, "0000")}
                 <ul className={css.item}>
-                    {this.props.info ? this.props.info.map(item => <li key={item.id}>
+                    {this.props.info ? this.props.info.map(item => <li key={item.id} onClick={()=>{this.changePage(item.id)}}>
                         <img src={item.pic} alt={item.dtitle} />
                         <h3> {item.dtitle} </h3>
                         <p>
@@ -22,7 +23,10 @@ class DetailItem extends Component {
             </div>
         )
     }
+    changePage(id){
+        this.props.history.push(`/detail/${id}`)
+    }
 }
 
 
-export default DetailItem
+export default withRouter(DetailItem)

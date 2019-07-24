@@ -9,6 +9,25 @@
     overflow: hidden;
     background: white;
 }
+.yuanjia{
+    color: red;
+    font-size: .14rem;
+    margin-bottom: .1rem;
+    padding-left: .1rem;
+}
+.quanJine{
+    margin-bottom: .1rem;
+    margin-top: .1rem;
+    padding-left: .1rem;
+    >span{
+        font-size: .1rem;
+        color: red;
+        padding: 0 .1rem;
+        border:1px solid red;
+    }
+    
+    
+}
 .box{
     background: white;
 }
