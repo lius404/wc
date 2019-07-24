@@ -13,14 +13,14 @@ import Register from '../Views/Register'
 const router = <HashRouter>
     <App>
         <Switch>
-            <Route path='/home' component={Home} />
-            <Route path='/collect' component={Collect} />
-            <Route path='/nine' component={Nine} />
-            <Route path='/detail/:id' component={Detail} />
-            <Route path="/sort" component={Sort}/>
-            <Route path='/login' component={Login} />
-            <Route path='/register' component={Register} />
-            <Redirect from='/' to='/home' exact/>
+            <Route path='/home' component={Home} exact/>
+            <Route path='/collect' component={Collect} exact/>
+            <Route path='/nine' component={Nine} exact/>
+            <Route path='/detail/:id' component={Detail} exact/>
+            <Route path='/sort' component={Sort} exact/>
+            <Route path='/login' component={Login} exact/>
+            <Route path='/register' component={Register} exact/>
+            <Redirect from='/' to='/home' />
         </Switch>
     </App>
 </HashRouter>
