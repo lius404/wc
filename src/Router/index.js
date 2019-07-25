@@ -1,5 +1,5 @@
 import React from 'react'
-import {HashRouter,Redirect,Route,Switch} from 'react-router-dom'
+import {BrowserRouter,Redirect,Route,Switch} from 'react-router-dom'
 import App from '../App'
 import Collect from '../Views/Collect'
 import Home from '../Views/Home'
@@ -10,7 +10,7 @@ import Login from '../Views/Login'
 import Register from '../Views/Register'
 
 
-const router = <HashRouter>
+const router = <BrowserRouter>
     <App>
         <Switch>
             <Route path='/home' component={Home} exact/>
@@ -23,6 +23,6 @@ const router = <HashRouter>
             <Redirect from='/' to='/home' />
         </Switch>
     </App>
-</HashRouter>
+</BrowserRouter>
 
 export default router
