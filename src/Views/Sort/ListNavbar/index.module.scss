@@ -1,0 +1,35 @@
+:global(.listnavbar){
+    width: 4.8em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 5;
+    background: #F4F4F4;
+    .nullbox{
+        height: 44px;
+    }
+    .nullbox2{
+        height: 50px;
+    }
+    a{
+        line-height: 45px;
+        text-decoration: none;
+        display: block;
+        height: 45px;
+        z-index: 10;
+        font-size: 14px;
+        position: relative;
+        text-align: center;
+        overflow: hidden; 
+    }
+    
+}
+a{
+    color: #333
+}
+:global(.myactive){
+    color: #FC3F78;
+}

@@ -1,3 +1,22 @@
+li{
+    list-style: none;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('./iconfont/iconfont.eot');
+    src: url('./iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./iconfont/iconfont.woff2') format('woff2'),
+        url('./iconfont/iconfont.woff') format('woff'),
+        url('./iconfont/iconfont.ttf') format('truetype'),
+        url('./iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 *{
     margin:0px;
     padding:0px;
@@ -10,13 +29,11 @@ body{
     font-size: 16px;
 }
 
-li{
-    list-style: none;
-}
 
 section{
     margin-bottom: 50px;
 }
+
 img{
     vertical-align: top;
 }
