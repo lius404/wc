@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+li{
+    list-style: none;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('./iconfont/iconfont.eot');
+    src: url('./iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./iconfont/iconfont.woff2') format('woff2'),
+        url('./iconfont/iconfont.woff') format('woff'),
+        url('./iconfont/iconfont.ttf') format('truetype'),
+        url('./iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+=======
 *{
     margin:0px;
     padding:0px;
@@ -17,6 +38,10 @@ li{
 section{
     margin-bottom: 50px;
 }
+<<<<<<< HEAD
 img{
     vertical-align: top;
 }
+=======
+>>>>>>> f97cfaecbbcf486fe5ec8c2f5cdf153e51db6d17
+>>>>>>> b9bbfaa9223d19f089fb60b60a139472d6ebb6bd
