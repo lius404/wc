@@ -17,3 +17,6 @@ li{
 section{
     margin-bottom: 50px;
 }
+img{
+    vertical-align: top;
+}

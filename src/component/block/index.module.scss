@@ -1,0 +1,30 @@
+img {
+    width: 1.19rem;
+    border-radius: 10px;
+}
+
+.title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 1.19rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: 14px;
+}
+.price{
+    color: #fc4d52;
+    font-size: 12px;
+    .after{
+        font-size: 17px;
+    }
+    .prev{
+        font-size: 15px;
+        color: #ccc;
+        text-decoration: line-through;
+        margin-left: 5px;
+    }
+}
+.box{
+    margin-left: 4px;
+}

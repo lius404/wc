@@ -13,7 +13,10 @@ import Register from '../Views/Register'
 const router = <HashRouter>
     <App>
         <Switch>
-            <Route path='/home' component={Home} exact/>
+            <Route path="/home" render={()=>
+                        <Home>
+                        </Home>
+                    } />
             <Route path='/collect' component={Collect} exact/>
             <Route path='/nine' component={Nine} exact/>
             <Route path='/detail/:id' component={Detail} exact/>

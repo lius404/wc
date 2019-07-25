@@ -1,0 +1,14 @@
+.swiper_container {
+    height: 1.87rem;
+    margin: 12px;
+    zoom: 1;
+    background: #fff;
+
+    .swiper_slide {
+        border-radius: 10px;
+        height: 1.77rem;
+        width: 1rem;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
+        padding: 10px 10px 0;
+    }
+}
