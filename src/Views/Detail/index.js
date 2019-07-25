@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Wheel from '../../Components/Wheel'
+import Wheel from '../../component/Wheel'
 import axios from "axios"
 import css from './index.module.scss'
 import DetailItem from "../../component/DetailItem"

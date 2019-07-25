@@ -1,0 +1,101 @@
+.bx {
+    height: 1.3rem;
+    padding: 10px 0 0 10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+
+    img {
+        float: left;
+    }
+
+    h4 {
+        width: 2.08rem;
+        height: .37rem;
+        float: right;
+        padding: 0 10px 10px 0;
+        font-weight: 400;
+    }
+
+    .title {
+        width: 2.18rem;
+        height: .35rem;
+        line-height: .35rem;
+        float: right;
+        color: #f72239;
+        margin-top: 10px;
+
+        .right {
+            float: right;
+            padding-right: 14px;
+        }
+
+        span {
+            font-size: 12px;
+            color: #ccc;
+        }
+    }
+
+    .price {
+        width: 2.18rem;
+        height: .24rem;
+        float: right;
+        color: #f72239;
+        font-size: 18px;
+        font-weight: bold;
+
+        span {
+            font-size: 12px;
+            color: #f72239;
+        }
+    }
+
+    .quan {
+        overflow: hidden;
+        position: absolute;
+            right: 15px;
+            bottom: 15px;
+        p {
+            width: 40px;
+            height: 15px;
+            line-height: 15px;
+            padding: 3px 10px;
+            font-size: 12px;
+            color: #fc3f78;
+            border: 1px solid #FC3F78;
+            text-align: center;
+
+            &:before {
+                position: absolute;
+                z-index: 100;
+                zoom: 1;
+                left: -4px;
+                top: 50%;
+                margin-top: -3px;
+                border: 1px solid #FC3F78;
+                background: #fff;
+                display: block;
+                width: 5px;
+                height: 5px;
+                content: "";
+                border-radius: 10px;
+
+            }
+
+            &:after {
+                position: absolute;
+                z-index: 1;
+                zoom: 1;
+                right: -4px;
+                top: 50%;
+                margin-top: -3px;
+                border: 1px solid #FC3F78;
+                background: #fff;
+                display: block;
+                width: 5px;
+                height: 5px;
+                content: "";
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,124 @@
+.nine_comlist{
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    margin-bottom: 1px;
+    border-top:2px solid #cccccc;
+}
+.nine_comlist .nine_h3bt{
+    height: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+    z-index: 0;
+    position: relative;
+    background: #fff;
+    top: -2px;
+    padding: 0 10px;
+    z-index: 1;
+    font-size: 15px;
+    color: #FC436D;
+}    
+
+.ov_h{
+    overflow: hidden;
+    height: 1px;
+    clear: both;
+}
+.swiper-cent{
+    margin-left: 10px;
+    height: 100%;
+}
+.img{
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.img>img{
+    width: 100%;
+    display: block;
+    height: 100px;
+}
+.img .text{
+    border-radius: 0 0 2px 2px;
+    text-align: center;
+    text-indent: .2em;
+    background: #FFF3F3;
+    border: 1px solid #ffbdbf;
+    color: #fc4d52;
+    font-size: 10px;
+    overflow: hidden;
+    height: 14px;
+    line-height: 14px;
+}
+.name{
+    width: 100%;
+    white-space: nowrap;
+    font-size: 11px;
+    padding: 5px 0 0;
+    margin-bottom: 5px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+}
+.money{
+    color: #FF2B22;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 0 0 5px;
+    width: 100px;   
+}
+.money>span{
+    color: #888;
+    font-size: 11px;
+        /* display: none; */
+}
+ .swiper-slide:nth-last-child{
+    background: red
+ }
+ .new{
+    height: 166px;
+    background: #FFF3F3;
+ }
+ .swiper-last{
+    padding-right: 10px;
+    height: 166px;
+    background: #FFF3F3;
+ }
+ .last_1{
+    line-height: 22px;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #FC7D7D;
+    z-index: 5;
+    left: 50%;
+    width: 50px;
+    height: 40px;
+    margin: -45px 0 0 -25px;
+ }
+ .last_2{
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+    color: #FC7D7D;
+    width: 80%;
+    z-index: 5;
+ }
+ .last_3{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 25px 0 0 -13px;
+    color: #FC7D7D;
+
+ }
