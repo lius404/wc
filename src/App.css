@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 li{
     list-style: none;
 }
@@ -18,7 +17,6 @@ li{
     -moz-osx-font-smoothing: grayscale;
 }
 
-=======
 *{
     margin:0px;
     padding:0px;
@@ -31,17 +29,11 @@ body{
     font-size: 16px;
 }
 
-li{
-    list-style: none;
-}
 
 section{
     margin-bottom: 50px;
 }
-<<<<<<< HEAD
+
 img{
     vertical-align: top;
 }
-=======
->>>>>>> f97cfaecbbcf486fe5ec8c2f5cdf153e51db6d17
->>>>>>> b9bbfaa9223d19f089fb60b60a139472d6ebb6bd
