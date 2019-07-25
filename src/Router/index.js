@@ -8,6 +8,7 @@ import Detail from '../Views/Detail'
 import Sort from '../Views/Sort'
 import Login from '../Views/Login'
 import Register from '../Views/Register'
+import My from '../Views/My'
 
 
 const router = <HashRouter>
@@ -17,7 +18,8 @@ const router = <HashRouter>
             <Route path='/collect' component={Collect} exact/>
             <Route path='/nine' component={Nine} exact/>
             <Route path='/detail/:id' component={Detail} exact/>
-            <Route phth='/sort' component={Sort} exact/>
+            <Route path='/sort' render={()=><Sort></Sort>}/>
+            <Route path='/my' component={My} exact/>
             <Route path='/login' component={Login} exact/>
             <Route path='/register' component={Register} exact/>
             <Redirect from='/' to='/home' />
