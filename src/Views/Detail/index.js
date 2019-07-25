@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Wheel from '../../Components/Wheel'
 import axios from "axios"
 import css from './index.module.scss'
-import DetailItem from "../../Components/DetailItem"
+import DetailItem from "../../component/DetailItem"
 class Detail extends Component {
     state = {
         datalist: [],
