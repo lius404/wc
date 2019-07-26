@@ -1,15 +1,4 @@
 import React, { Component } from 'react'
-<<<<<<< HEAD
-
-class Detail extends Component {
-    
-    render() {
-        return <div>
-            Detail
-        </div>
-    }
-
-=======
 import Wheel from '../../component/Wheel'
 import axios from "axios"
 import css from './index.module.scss'
@@ -154,7 +143,6 @@ class Detail extends Component {
         )
 
     }
->>>>>>> bf2f88cc2536fdc90afda9005fa5611b07017737
 }
 export default Detail
 // http://cmsjapi.dataoke.com/api/goods/get-goods-detail-img?goodsId=587057321190&entityId=4&userId=808862
