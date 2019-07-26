@@ -1,0 +1,114 @@
+ul {
+    margin-bottom: 5px;
+    background-color: #fff;
+    background-size: 100% 100%;
+    padding: 14px 0 0;
+    text-align: center;
+    height: 1.17rem;
+    display: flex;
+
+    li {
+        flex: 1;
+        // text-align: center;
+        img {
+            width: .61rem;
+        }
+
+        p {
+            color: #333;
+            margin-top: 10px;
+        }
+    }
+}
+
+.con_1 {
+    background: #fff;
+    height: 2.46rem;
+    margin-bottom: 10px;
+
+    h3 {
+        padding-top: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 30px;
+        position: relative;
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 3px;
+            height: 13px;
+            background: linear-gradient(to top, #ff5d06 0, #fc3f78 100%);
+            left: -10px;
+            top: 12px;
+        }
+    }
+}
+
+.con_2 {
+    height: 2.8rem;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+
+    .top {
+        height: .9rem;
+        background-image: url('https://img.alicdn.com/imgextra/i4/2053469401/O1CN019U2IGH2JJhxf0DXzu_!!2053469401.jpg');
+        background-size: 100% auto;
+
+        h1 {
+            float: left;
+            z-index: 1;
+            background-color: #fff;
+            height: .7rem;
+            width: .7rem;
+
+            img {
+                width: .7rem;
+            }
+        }
+
+        .up {
+            height: .34rem;
+            line-height: .34rem;
+            font-size: 18px;
+            padding-top: 20px;
+        }
+        .down{
+            height: .34rem;
+            line-height: .34rem;
+            font-size: 14px;
+        }
+    }
+    div.a{
+        margin-left: 2px;
+    }
+    .box{
+        display:flex;
+        width: 100%;
+        align-content: space-between;
+    }
+}
+.con_list{
+    background: #fff;
+    margin-top: 16px;
+    h3 {
+        padding-top: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 30px;
+        position: relative;
+        padding-bottom: 10px;
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 3px;
+            height: 13px;
+            background: linear-gradient(to top, #ff5d06 0, #fc3f78 100%);
+            left: -10px;
+            top: 12px;
+        }
+    }
+}
