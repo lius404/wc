@@ -18,12 +18,8 @@ const router = <HashRouter>
             <Route path='/collect' component={Collect} exact/>
             <Route path='/nine' component={Nine} exact/>
             <Route path='/detail/:id' component={Detail} exact/>
-<<<<<<< HEAD
             <Route path='/sort' render={()=><Sort></Sort>}/>
             <Route path='/my' component={My} exact/>
-=======
-            <Route path='/sort' component={Sort} exact/>
->>>>>>> f97cfaecbbcf486fe5ec8c2f5cdf153e51db6d17
             <Route path='/login' component={Login} exact/>
             <Route path='/register' component={Register} exact/>
             <Redirect from='/' to='/home' />

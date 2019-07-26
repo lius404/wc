@@ -1,35 +1,99 @@
 :global(.listnavbar){
-    width: 4.8em;
+    width: 100%;
     position: absolute;
-    left: 0;
+    z-index: 2;
     top: 0;
+    right: 0;
+    background: #fff;
     height: 100%;
     overflow: hidden;
     overflow-y: auto;
-    z-index: 5;
-    background: #F4F4F4;
-    .nullbox{
-        height: 44px;
+    :global(.bigbox){
+        margin: 44px 0px 50px;
+        :global(.leftbar){
+            width: 4.8em;
+            height: 100%;
+            overflow: hidden;
+            overflow-y: auto;
+            z-index: 5;
+            background: #F4F4F4;
+            padding: 0;
+            -webkit-overflow-scrolling: touch;
+            a{
+                line-height: 45px;
+                text-decoration: none;
+                display: block;
+                height: 45px;
+                z-index: 10;
+                font-size: 14px;
+                position: relative;
+                text-align: center;
+                overflow: hidden; 
+            }
+            
+        }
     }
-    .nullbox2{
-        height: 50px;
+    :global(.rightlist){
+        margin-left: 4.8em;
+        overflow: hidden;
+        overflow-y: auto;
+        position: fixed;
+        top:0;
+        z-index: 0;
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+        -webkit-box-flex: 1;
+        :global(.nullbox){
+            height: 44px;
+        }
+        :global(.nullbox2){
+            height: 50px;
+        }
+        :global(.listbox){
+            overflow: hidden;
+            h2{
+                width: 100%;
+                padding: 0 4%;
+                box-sizing: border-box;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                height: 26px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #333;
+                line-height: 26px;
+            }
+            :global(.rightdetail){
+                display: block;
+                font-size: 12px;
+                color: #333;
+                line-height: 25px;
+                overflow: hidden;
+                padding-bottom: 20px;
+                float: left;
+                width: 33%;
+                text-align: center;
+                opacity: 1;
+                img{
+                    display: block;
+                    margin: auto;
+                    width: 60%;
+                    min-height: 40px;
+                }
+                h3{
+                    font-weight: 100;
+                    font-size: 12px;
+                }
+            }
+        } 
     }
-    a{
-        line-height: 45px;
-        text-decoration: none;
-        display: block;
-        height: 45px;
-        z-index: 10;
-        font-size: 14px;
-        position: relative;
-        text-align: center;
-        overflow: hidden; 
-    }
-    
 }
 a{
     color: #333
 }
-:global(.myactive){
+.myactive{
     color: #FC3F78;
+    background: white;
+    border-left: 2px solid #FC3F78;
 }
+
