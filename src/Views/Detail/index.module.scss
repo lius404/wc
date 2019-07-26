@@ -22,7 +22,6 @@
         width: 100%;
         top: 0;
         z-index: 5;
-       
         transition: all .5s;
 
         a {
@@ -38,13 +37,15 @@
         .show{
             opacity: 1;
         }
-        ul {
+        >ul {
             display: flex;
             font-size: .2rem;
             color: #333;
             height: 100%;
             opacity: 0;
-
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
             li {
                 padding: 0 .1rem;
                 height: 100%;
@@ -100,7 +101,7 @@
             }
         }
 
-        ul {
+       >ul {
             display: flex;
             height: .49rem;
             align-items: center;

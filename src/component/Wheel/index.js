@@ -25,8 +25,8 @@ class Wheel extends Component {
             </div>
         )
     }
-    changePage(id,goodsId) {
-        this.props.history.push("/detail/"+id+"?"+goodsId)
+    changePage(Id,goodsId) {
+        this.props.history.push("/detail/"+Id+"?"+goodsId)
         window.location.reload()
     }
 
